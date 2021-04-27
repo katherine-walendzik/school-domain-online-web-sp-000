@@ -21,7 +21,7 @@ class School
   end
    
   def grade(grade)
-    ROSTER[grade].uniq!
+    ROSTER[grade]
   end
   
   def sort
