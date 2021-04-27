@@ -17,6 +17,7 @@ class School
     else
       ROSTER[grade] = []
       ROSTER[grade] << name
+    end
   end
    
   def grade
