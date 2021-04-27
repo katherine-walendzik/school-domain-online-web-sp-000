@@ -11,7 +11,7 @@ class School
     return ROSTER
   end
   
-  def add_student(name, grade)
+  def add_student(student_name, grade)
     if ROSTER[grade] 
       ROSTER[grade] << name
     else
